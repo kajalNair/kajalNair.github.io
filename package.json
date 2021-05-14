@@ -1,0 +1,25 @@
+{
+  "name": "kajalNair.github.io",
+  "version": "1.0.0",
+  "description": "About, Blog and Projects of Kajal",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build -d static/scripts -o index.js --no-source-maps _js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Kajal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kajalNair/kajalNair.github.io/issues"
+  },
+  "homepage": "https://github.com/kajalNair/kajalNair.github.io#readme",
+  "devDependencies": {
+    "medium-zoom": "^1.0.6",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {}
+}

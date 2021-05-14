@@ -1,0 +1,55 @@
+title: Kajal Nair (@kajalN6)
+name: Kajal Nair
+tagline: Security Engineer
+username: kajalN6
+email: kajalnair06@gmail.com
+description: >-
+  About, Blog and Projects of Kajal
+
+baseurl: ""
+url: "//"
+
+markdown: kramdown
+kramdown:
+  highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+collections:
+  blog:
+    output: true
+    permalink: "/blog/:slug:output_ext"
+  projects:
+    output: true
+    permalink: "/projects/:slug:output_ext"
+
+defaults:
+- scope:
+    path: ""
+    type: blog
+  values:
+    layout: blog
+- scope:
+    path: ""
+    type: projects
+  values:
+    layout: project
+
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+- README.md
+- .git/
+- .gitignore
+- .github/
