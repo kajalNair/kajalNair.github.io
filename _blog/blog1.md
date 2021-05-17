@@ -13,7 +13,9 @@ So the real idea behind infrastructure as code is: How do we take this whole pro
 
 
 ## Infrastructure as Code
-> According to Wikipedia, Infrastructure as code is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools. Simply put, it lets you manage your infrastructure by using configuration files. 
+> According to Wikipedia, Infrastructure as code is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools. Simply put, it lets you manage your infrastructure by just using configuration files. 
+
+##
 But how does IaC streamline all these processes?
 
 
