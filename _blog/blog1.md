@@ -17,11 +17,20 @@ So the real idea behind infrastructure as code is: How do we take this whole pro
 > According to Wikipedia, Infrastructure as code is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools. 
 
 ##
+Simply put, it lets you manage your infrastructure by just using configuration files.
 
-Simply put, it lets you manage your infrastructure by just using configuration files. 
 But how does IaC streamline all these processes?
 
 
-## Heading 3
+## Choosing an Infrastructure as Code tool
+The IaC approach is widely used in modern deployment, configuration management, virtualization and orchestration software. And you would have heard of tools like ansible, chef, puppet, docker and kubernetes and wondered what these are and how Terraform, (which we'll discuss shortly) differs from them?
+
++ Ansible, chef, puppets are mainly used for provisioning, configuration management and application deployment.
++ Docker and Kubernetes, the leading tools used for container creation and orchestration.
++ Terraform's strength lies in provisioning hardware resources, rather than installing softwares and managing configurations.
+
+
+## Role of Terraform
+Terraform is an open source IaC provisioning tool written in Go and developed by Harshicorp. It supports multiple cloud providers. The code that defines the infra is written in in Harshicorp Configuration Language and source code files that contains these definations have .tf extension.
 
 
