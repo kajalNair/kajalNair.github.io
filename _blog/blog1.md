@@ -33,7 +33,7 @@ The IaC approach is widely used in modern deployment, configuration management, 
 ## Role of Terraform
 Terraform is an open source IaC provisioning tool written in Go and developed by Harshicorp. It supports multiple cloud providers. The code that defines the infra is written in in Harshicorp Configuration Language and source code files that contains these definations have .tf extension.
 
-![Terraform]({{ '/static/blog/terraform-code-block-file.png' | prepend: site.baseurl | replace: '//', '/' }})
+![Terraform]({{ '/static/assets/terraform-code-block-file.jpeg' | prepend: site.baseurl | replace: '//', '/' }})
 
 The sample terraform code above shows that an AWS cloud provider has been configured and a VPC is created with some attribute. 
 
