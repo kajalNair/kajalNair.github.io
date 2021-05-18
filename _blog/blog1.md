@@ -72,7 +72,7 @@ Terraform security is becoming an increasingly important area for DevOps enginee
 
 
 ### References
-[https://www.hashicorp.com/resources/what-is-infrastructure-as-code]
+(https://www.hashicorp.com/resources/what-is-infrastructure-as-code)
 
 [https://bridgecrew.io/wp-content/uploads/state-of-open-source-terraform-security-2020.pdf]
 
