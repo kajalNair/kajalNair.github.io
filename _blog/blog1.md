@@ -4,7 +4,7 @@ description: Static Analysis of Infrastructure as Code
 
 ---
 
-> This post includes an analysis done by [@ka3hk](https://twitter.com/ka3hk), Rashika, Niket, [@kajalN6](https://twitter.com/kajalN6) and training project developed by [Anand Gupta](https://www.linkedin.com/in/anand-gupta-8495aa43/) along with interns'20. 
+> This post includes an analysis done by [Ashwath](https://twitter.com/ka3hk), Rashika, Niket, [Kajal](https://twitter.com/kajalN6) and training project developed by [Anand Gupta](https://www.linkedin.com/in/anand-gupta-8495aa43/) along with interns'20. 
 
 ## Traditional way of doing it?
 Traditionally, IT people would put servers in place and configure them manually. Now suppose you want to deploy an application, you would spin up a VM and configure it to correct settings required by the OS and application. You would install softwares and packages needed to get your application up and running. Now imagine that you want to run few more instances and to do all that manually, is gonna take hell lot of time. As the scale of infrastructure continues to expand, it is imperative to change the way infrastructure is designed, developed, configured, managed, and maintained. This is why term IaC was coined.
