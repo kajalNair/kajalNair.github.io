@@ -73,14 +73,23 @@ Terraform security is becoming an increasingly important area for DevOps enginee
 
 ### References
 https://www.hashicorp.com/resources/what-is-infrastructure-as-code
+
 https://bridgecrew.io/wp-content/uploads/state-of-open-source-terraform-security-2020.pdf
+
 https://github.com/bridgecrewio/terragoat 
+
 https://github.com/RhinoSecurityLabs/cloudgoat
+
 https://github.com/appsecco/attacking-cloudgoat2
+
 https://github.com/bridgecrewio/checkov
+
 https://github.com/accurics/terrascan
+
 https://github.com/terraform-linters/tflint
+
 https://www.terraform.io/
+
 https://github.com/nccgroup/ScoutSuite/
 
 
