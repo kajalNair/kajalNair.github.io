@@ -4,7 +4,7 @@ description: Static Analysis of Infrastructure as Code
 
 ---
 
-> This post includes an analysis done by @ka3hk, Rashika, Niket, @kajalN6 and training project developed by Anand Gupta along with interns'20. 
+> This post includes an analysis done by [@ka3hk](https://twitter.com/ka3hk), Rashika, Niket, [@kajalN6](https://twitter.com/kajalN6) and training project developed by [Anand Gupta](https://www.linkedin.com/in/anand-gupta-8495aa43/) along with interns'20. 
 
 ## Traditional way of doing it?
 Traditionally, IT people would put servers in place and configure them manually. Now suppose you want to deploy an application, you would spin up a VM and configure it to correct settings required by the OS and application. You would install softwares and packages needed to get your application up and running. Now imagine that you want to run few more instances and to do all that manually, is gonna take hell lot of time. As the scale of infrastructure continues to expand, it is imperative to change the way infrastructure is designed, developed, configured, managed, and maintained. This is why term IaC was coined.
@@ -72,25 +72,25 @@ Terraform security is becoming an increasingly important area for DevOps enginee
 
 
 ### References
-https://www.hashicorp.com/resources/what-is-infrastructure-as-code
+[https://www.hashicorp.com/resources/what-is-infrastructure-as-code]
 
-https://bridgecrew.io/wp-content/uploads/state-of-open-source-terraform-security-2020.pdf
+[https://bridgecrew.io/wp-content/uploads/state-of-open-source-terraform-security-2020.pdf]
 
-https://github.com/bridgecrewio/terragoat 
+[https://github.com/bridgecrewio/terragoat]
 
-https://github.com/RhinoSecurityLabs/cloudgoat
+[https://github.com/RhinoSecurityLabs/cloudgoat]
 
-https://github.com/appsecco/attacking-cloudgoat2
+[https://github.com/appsecco/attacking-cloudgoat2]
 
-https://github.com/bridgecrewio/checkov
+[https://github.com/bridgecrewio/checkov]
 
-https://github.com/accurics/terrascan
+[https://github.com/accurics/terrascan]
 
-https://github.com/terraform-linters/tflint
+[https://github.com/terraform-linters/tflint]
 
-https://www.terraform.io/
+[https://www.terraform.io/]
 
-https://github.com/nccgroup/ScoutSuite/
+[https://github.com/nccgroup/ScoutSuite/]
 
 
 
