@@ -66,31 +66,31 @@ We scanned the data set for known misconfigurations and risk, and this is what w
 
 ![result-analysis]({{ '/static/assets/result-analysis.png' | prepend: site.baseurl | replace: '//', '/' }})
 
-Checkov proved to be best iac tool out of all. It has over 300 compliance and security checks across AWS, Azure, and Google Cloud. These security checks are based on policies defined by Center of Internet Security (CIS), AWS Foundations, SOC2, PCI, and additional best practices.  
+[checkov](https://github.com/bridgecrewio/checkov) proved to be best iac tool out of all. It has over 300 compliance and security checks across AWS, Azure, and Google Cloud. These security checks are based on policies defined by Center of Internet Security (CIS), AWS Foundations, SOC2, PCI, and additional best practices.  
 
 Terraform security is becoming an increasingly important area for DevOps engineers to learn and implement. We hope this helps you to get started with right tools.
 
 
 ### References
-(https://www.hashicorp.com/resources/what-is-infrastructure-as-code)
+[https://www.hashicorp.com/resources/what-is-infrastructure-as-code](https://www.hashicorp.com/resources/what-is-infrastructure-as-code)
 
-[https://bridgecrew.io/wp-content/uploads/state-of-open-source-terraform-security-2020.pdf]
+[https://bridgecrew.io/wp-content/uploads/state-of-open-source-terraform-security-2020.pdf](https://bridgecrew.io/wp-content/uploads/state-of-open-source-terraform-security-2020.pdf)
 
-[https://github.com/bridgecrewio/terragoat]
+[https://github.com/bridgecrewio/terragoat](https://github.com/bridgecrewio/terragoat)
 
-[https://github.com/RhinoSecurityLabs/cloudgoat]
+[https://github.com/RhinoSecurityLabs/cloudgoat](https://github.com/RhinoSecurityLabs/cloudgoat)
 
-[https://github.com/appsecco/attacking-cloudgoat2]
+[https://github.com/appsecco/attacking-cloudgoat2](https://github.com/appsecco/attacking-cloudgoat2)
 
-[https://github.com/bridgecrewio/checkov]
+[https://github.com/bridgecrewio/checkov](https://github.com/bridgecrewio/checkov)
 
-[https://github.com/accurics/terrascan]
+[https://github.com/accurics/terrascan](https://github.com/accurics/terrascan)
 
-[https://github.com/terraform-linters/tflint]
+[https://github.com/terraform-linters/tflint](https://github.com/terraform-linters/tflint)
 
-[https://www.terraform.io/]
+[https://www.terraform.io/](https://www.terraform.io/)
 
-[https://github.com/nccgroup/ScoutSuite/]
+[https://github.com/nccgroup/ScoutSuite/](https://github.com/nccgroup/ScoutSuite/)
 
 
 
