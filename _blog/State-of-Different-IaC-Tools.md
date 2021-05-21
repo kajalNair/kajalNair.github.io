@@ -58,22 +58,43 @@ Networking or compute instances exposed on the Internet can be hacked by malicio
 ![Terraform-misconfig-1]({{ '/static/assets/T-Misconfig-Stats-1.png' | prepend: site.baseurl | replace: '//', '/' }}) ![Terraform-misconfig-2]({{ '/static/assets/T-Misconfig-Stats-2.png' | prepend: site.baseurl | replace: '//', '/' }})
 
 ## How did we setup our experiment?
-In the beginning, we decided to look for different [IaC tools]: "tflint, tfsec, checkov, terrascan, etc." and find out the best project. For this, we had to gather information on these tools like 
+In the beginning, we decided to look for different IaC tools like tfscan, terrascan, checkov, tflint, etc., available for terraform code scanning and find out the best project. For this, we had to gather information on these tools like 
 * which cloud providers are supported?
 * how many rule sets are in place?
 * True/False positive analysis
+* Detection rate, no. of missed findings
 * if the tools are well maintained and well-documented
 
 Once we had the list (having information gathered above), our next steps were as followed:
 1. Search the internet (start with github) for terraform files
 2. Download all the terraform files onto local disk
-3. Run it against different tools like tfscan, terrascan, checkov, tflint
+3. Run it against different tools
 4. Compare results
 
 For step one, we used URL below to find all the terraform files: 
 ```link
 https://github.com/search?q=.tf+extension%3Atf+filename%3Amain&type=Code&ref=advsearch&l=&l=
 ```
+
+The search identified more than 15k files.
+![github-search]({{ '/static/assets/github-search-for-tf-files.png' | prepend: site.baseurl | replace: '//', '/' }})
+
+We also developed an intentionally vulnerable cloud environment, Synopsys VCE, a training project to learn how to identify and avoid infrastructure as code misconfigurations and security risks. Though there are plenty of projects like SadCloud, Terragoat, Cloudgoat etc., out there to learn how common configuration errors can find their way into production cloud environments. We ran these tools against these cloud environments too.
+
+![vce]({{ '/static/assets/vulnerable-cloud-env.png' | prepend: site.baseurl | replace: '//', '/' }})
+
+We scanned the data set for known misconfigurations and risk, and this is what we found. 
+
+![scan-analysis]({{ '/static/assets/scan-analysis.png' | prepend: site.baseurl | replace: '//', '/' }})
+
+
+We also found that the reason for these misconfigurations is that as Terraform modules come pre-built with standardized configurations and variable templates, these modules do not include best practices/policies as default, rather left as an option for the developers to use.
+
+
+
+
+
+
 
 
 ## Result of our analysis
