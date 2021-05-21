@@ -79,11 +79,11 @@ https://github.com/search?q=.tf+extension%3Atf+filename%3Amain&type=Code&ref=adv
 The search identified more than 15k files.
 ![github-search]({{ '/static/assets/github-search-for-tf-files.png' | prepend: site.baseurl | replace: '//', '/' }})
 
-We also developed an intentionally vulnerable cloud environment, Synopsys VCE, a training project to learn how to identify and avoid infrastructure as code misconfigurations and security risks. Though there are plenty of projects like SadCloud, Terragoat, Cloudgoat etc., out there to learn how common configuration errors can find their way into production cloud environments. We ran these tools against these cloud environments too.
+We also developed an intentionally vulnerable cloud environment, Synopsys VCE, a training project to learn how to identify and avoid infrastructure as code misconfigurations and security risks. Though there are plenty of projects like SadCloud, Terragoat, Cloudgoat etc., out there to learn how common configuration errors can find their way into production cloud environments. The image below shows the common misconfigurations present in these learning projects.
 
 ![vce]({{ '/static/assets/vulnerable-cloud-env.png' | prepend: site.baseurl | replace: '//', '/' }})
 
-We scanned the data set for known misconfigurations and risk, and this is what we found. 
+We then scanned the data set for known misconfigurations and risk, and this is what we found. 
 
 ![scan-analysis]({{ '/static/assets/scan-analysis.png' | prepend: site.baseurl | replace: '//', '/' }})
 
@@ -114,26 +114,7 @@ Terraform security is becoming an increasingly important area for DevOps enginee
 
 
 
-### References
-[https://www.hashicorp.com/resources/what-is-infrastructure-as-code](https://www.hashicorp.com/resources/what-is-infrastructure-as-code)
 
-[https://bridgecrew.io/wp-content/uploads/state-of-open-source-terraform-security-2020.pdf](https://bridgecrew.io/wp-content/uploads/state-of-open-source-terraform-security-2020.pdf)
-
-[https://github.com/bridgecrewio/terragoat](https://github.com/bridgecrewio/terragoat)
-
-[https://github.com/RhinoSecurityLabs/cloudgoat](https://github.com/RhinoSecurityLabs/cloudgoat)
-
-[https://github.com/appsecco/attacking-cloudgoat2](https://github.com/appsecco/attacking-cloudgoat2)
-
-[https://github.com/bridgecrewio/checkov](https://github.com/bridgecrewio/checkov)
-
-[https://github.com/accurics/terrascan](https://github.com/accurics/terrascan)
-
-[https://github.com/terraform-linters/tflint](https://github.com/terraform-linters/tflint)
-
-[https://www.terraform.io/](https://www.terraform.io/)
-
-[https://github.com/nccgroup/ScoutSuite/](https://github.com/nccgroup/ScoutSuite/)
 
 
 
