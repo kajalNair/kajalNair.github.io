@@ -57,6 +57,24 @@ Networking or compute instances exposed on the Internet can be hacked by malicio
 
 ![Terraform-misconfig-1]({{ '/static/assets/T-Misconfig-Stats-1.png' | prepend: site.baseurl | replace: '//', '/' }}) ![Terraform-misconfig-2]({{ '/static/assets/T-Misconfig-Stats-2.png' | prepend: site.baseurl | replace: '//', '/' }})
 
+## How did we setup our experiment?
+In the beginning, we decided to look for different IaC tools[add link like an alt text] and find out the best project. For this, we had to gather information on these tools like 
+* which cloud providers are supported?
+* how many rule sets are in place?
+* True/False positive analysis
+* if the tools are well maintained and well-documented
+
+Once we had the list (having information gathered above), our next steps were as followed:
+1. Scourge the internet (start with github) for terraform files
+2. Download all the terraform files onto local disk
+3. Run it against different tools like tfscan, terrascan, checkov, tflint
+4. Compare results
+
+For step one, we used URL below to find all the terraform files: 
+```link
+https://github.com/search?q=.tf+extension%3Atf+filename%3Amain&type=Code&ref=advsearch&l=&l=
+```
+
 
 ## Result of our analysis
 
