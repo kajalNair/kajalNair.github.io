@@ -3,8 +3,9 @@ title: State of Different IaC Tools
 description: Static Analysis of Infrastructure as Code
 ---
 
-> TL;DR 
-This blog will address the current state of IaC tools starting with Terraform. We will discuss about an analysis performed on the open source Terraform Registry, and vulnerable cloud environments to measure the working of different open-source-static-analysis-tools for IaC. The data in this blog is collected by scanning public resources within Terraform Registery modules and popular projects like CloudGoat, TerraGoat. 
+> TL;DR
+> 
+> This blog will address the current state of IaC tools starting with Terraform. We will discuss about an analysis performed on the open source Terraform modules, and vulnerable cloud environments to measure the working of different infrastructure-as-code static analysis tools. The data in this blog is collected by scanning public resources within Terraform modules and popular projects like CloudGoat, TerraGoat, etc. 
 This was done by [Ashwath](https://twitter.com/ka3hk), [Rashika](https://www.linkedin.com/in/rashika-singh-7529b4137), [Niket](https://www.linkedin.com/in/masterniketyadav/), [Kajal](https://twitter.com/kajalN6) and training project developed by [Anand Gupta](https://www.linkedin.com/in/anand-gupta-8495aa43/) along with interns'20. 
 
 
